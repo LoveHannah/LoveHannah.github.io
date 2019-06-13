@@ -13,10 +13,10 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <title>
     
-      Hexo文章简单加密访问 | hannah
+      Hexo文章简单加密访问 | 해나 머리
     
   </title>
-  <meta name="author" content="John Doe">
+  <meta name="author" content="Hananh">
   <meta name="keywords" content>
   <meta name="description" content>
 	<!-- favicon -->
@@ -39,9 +39,10 @@
 	<div id="preloader">
 		<div class="pre-container">
 			
-				<div class="spinner">
-					<div class="double-bounce1"></div>
-					<div class="double-bounce2"></div>
+				<div class="transition">
+					<div class="three-bounce1"></div>
+					<div class="three-bounce2"></div>
+					<div class="three-bounce3"></div>
 				</div>
 						
 		</div>
@@ -49,7 +50,7 @@
 
 
 <!-- header -->
-<header class="fixbackground" data-img-mode="normal" data-normal-src="/img/1.jpg" data-random-max="110" data-random-src="https://uploadbeta.com/api/pictures/random/?key=BingEverydayWallpaperPicture">
+<header class="fixbackground" data-img-mode="random" data-normal-src="/img/bg.jpg" data-random-max="10" data-random-src="https://lovehannah.github.io/Random-img/">
 	<div class="mask">
 		<!-- Logo and navigation -->
 		<div class="h-header">
@@ -217,14 +218,8 @@
 		<ul>
 	
 		<li>
-			<a href="http://github.com/" target="_blank">
+			<a href="http://github.com/lovehannah" target="_blank">
 				<i class="fa fa-github"></i>
-			</a>
-		</li>
-	
-		<li>
-			<a href="http://github.com/" target="_blank">
-				<i class="fa fa-weibo"></i>
 			</a>
 		</li>
 	
@@ -243,12 +238,6 @@
 		<li>
 			<a href="http://github.com/" target="_blank">
 				<i class="fa fa-twitter"></i>
-			</a>
-		</li>
-	
-		<li>
-			<a href="/atom.xml" target="_blank">
-				<i class="fa fa-rss"></i>
 			</a>
 		</li>
 			
@@ -293,14 +282,8 @@
 		<ul>
 	
 		<li>
-			<a href="http://github.com/" target="_blank">
+			<a href="http://github.com/lovehannah" target="_blank">
 				<i class="fa fa-github"></i>
-			</a>
-		</li>
-	
-		<li>
-			<a href="http://github.com/" target="_blank">
-				<i class="fa fa-weibo"></i>
 			</a>
 		</li>
 	
@@ -321,12 +304,6 @@
 				<i class="fa fa-twitter"></i>
 			</a>
 		</li>
-	
-		<li>
-			<a href="/atom.xml" target="_blank">
-				<i class="fa fa-rss"></i>
-			</a>
-		</li>
 			
 </ul>
 
@@ -335,7 +312,7 @@
 	<div class="copyright">
 		<p>
 			 
-				&copy;2017 - 2019, content by John Doe. All Rights Reserved.
+				&copy;2017 - 2019, content by Hananh. All Rights Reserved.
 			
 			
 			
@@ -403,6 +380,23 @@
 		<div class="local-search-footer">
 			<div class="topN-post">				
 				
+
+   
+	<div id="topN">
+		<div class="topN-title" data-title="热门文章"></div> 
+	</div>
+	
+    <script>
+        var appid = 'dXz',
+            appkey = 'wzG',
+            limitCount = 10;
+        if( $('#topN').length ){
+            AV.initialize(appid, appkey);
+            var Counter = AV.Object.extend("Counter");  
+            topNPost(Counter, limitCount);
+        }
+    </script>
+   
 								
 			</div>
 		</div>

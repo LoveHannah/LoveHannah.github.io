@@ -1722,6 +1722,12 @@ main {
     transform: scale(1);
   }
 }
+html {
+  font-size: 14px;
+}
+body {
+  font-family: "PingFang SC", "Microsoft YaHei";
+}
 .layout-post {
   width: 60%;
   margin: 0em auto;
@@ -1733,6 +1739,7 @@ main {
 /*font-family: Ovo,Georgia,STZhongsong,"Microsoft YaHei",serif;*/
   font-size: 1rem;
   line-height: 2;
+  font-family: "Source Sans Pro", "Segoe UI";
 }
 .article-title {
   font-size: 2rem;
